@@ -1,0 +1,47 @@
+#head{
+    color: rgb(73, 22, 66);
+    font-size: 60px;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    font-family: segoe print;
+}
+#gen{
+    font-size: large;
+    margin-top: 50px;  
+    margin-bottom: 50px;  
+    margin-right: 100px;  
+    margin-left: 200px; 
+
+}
+
+#we{
+    color: rgb(5, 80, 5);
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+
+.center {  
+    text-align: center;  
+    color: blue;  
+}  
+
+.p{
+    text-align: center;
+    font-size: large;
+    margin-top: 50px;  
+    margin-bottom: 50px;  
+    margin-right: 100px;  
+    margin-left: 100px; 
+
+}
+
+body{
+    background-image: url('../images/web2.jpg');
+    background-size: contain;
+    background-position: center;
+
+}
