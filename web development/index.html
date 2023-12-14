@@ -1,33 +1,80 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Fitness Tracker.</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+  </head>
 
-    <head>
-        <title>First web page.</title>  
-        <link rel="stylesheet" type="text/css" href="CSS/style.css">
-    </head>
+  <body>
+    <header>
+      <div class="logo">
+        <!-- Your logo or site name -->
+        Fitness Tracker
+      </div>
+      <nav>
+        <!-- Navigation links if needed -->
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Workouts</a></li>
+          <li>
+            <a href="HTML/form.html"><img src="images/5.svg" alt="User Icon" />Profile</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-    <body >
-        <div>
-            <h1 id="head"><big>Welcome to our simple web page!!</big></h1>
-            <p class="p">"Welcome to our user-friendly login portal! Here, you can securely access your personalized space by simply entering your credentials. Your privacy and security are our top priorities. Through this intuitive system, you can effortlessly log in, ensuring a seamless experience while accessing your account. Join our community and enjoy the convenience of securely managing your information. Let's make logging in a breeze as you step into your personalized space!"</p>
-    
-            <div><h3 id="we">What we are dealing with;</h3>
-    
-                <ul id="gen">
-                    <li>Innovation</li>
-                    <li>Learning Html</li>
-                    <li>Learning CSS</li>
-                    <li>Creating Web pages</li>
-                </ul>
+    <main >
+        <div class="container">
+            <div class="sections">
+                <div class="section">
+                    <section class="hero">
+                        <h2>Welcome to Fitness Tracker</h2>
+                        <p>Track your workouts, monitor progress, and achieve your fitness goals.</p>
+                        <a href="#signup" class="cta-button">Sign Up</a>
+                      </section>
+                </div>
+                <div class="section">
+                    
+                  <section id="features" class="features">
+                    <h3>Key Features</h3>
+                    <ul>
+                      <li>Track workouts and activities</li>
+                      <li>Monitor progress and set goals</li>
+                      <li>View detailed analytics and reports</li>
+          
+                    </ul>
+                  </section>
+                </div>
+                <div class="section">
+                  <section id="about" class="about">
+                    <h3>About Us</h3>
+                    <p>Some information about the fitness app, its purpose, and the team behind it.</p>
+                  </section>
+                </div>
+          
+            </div>
         </div>
-            
-        <div>
-            <a href="HTML/form.html"><button type="button" id="button">Click here to Sign up.</button></a>
-        </div>
-                   
-        </div>
-                
-        </body>
-  
-  
+    </main>
+        
+    <footer>
+      <div class="social-icons">
+        <!-- Social media icons -->
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+      <p>&copy; 2023 Fitness Tracker</p>
+    </footer>
+  </body>
+
+
+  <script>// Use JavaScript to scroll to the desired section
+    function scrollToSection(sectionNumber) {
+      const sections = document.querySelector('.sections');
+      const sectionWidth = document.querySelector('.section').offsetWidth;
+      sections.style.transform = `translateX(-${sectionWidth * (sectionNumber - 1)}px)`;
+    }
+    </script>
+
 </html>

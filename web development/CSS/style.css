@@ -39,9 +39,151 @@
 
 }
 
-body{
-    background-image: url('../images/web2.jpg');
-    background-size: contain;
+body.home{
+    background-image: url('../images/bg.jpeg');
+    background-size:auto;
     background-position: center;
+    font-family: arial, sans-serif;
 
 }
+
+body.others {
+    background-color: #073e45;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Logo styling */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+
+/* Navigation styling */
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration:wavy;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+/*footer styling*/
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Style the hero section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: rgb(202, 59, 181);
+    font-style: oblique;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    color: rgb(202, 59, 181);
+    margin-bottom: 40px;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #073e45;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #fff;
+    border-color: #073e45;
+    color:#073e45;
+    border: 2px solid;
+  }
+  
+  /* Style the features section */
+  .features {
+    padding: 80px 20px;
+ ;
+  }
+  
+  .features h3 {
+    text-align: center;
+    color: rgb(202, 59, 181);
+  }
+  
+  .features ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(202, 59, 181);
+  }
+  
+  .features li {
+    text-align: center;
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the about section */
+  .about {
+    text-align: center;
+    padding: 80px 20px;
+    color: rgb(202, 59, 181);
+  }
+
+  .container {
+    width: 100%; 
+    overflow-x: hidden; 
+  }
+  
+  /* Create a wrapper for sections */
+  .sections {
+    display: flex;
+    width: 300%; 
+    transition: transform 0.5s ease;
+  }
+  
+  /* Create sections */
+  .section {
+    flex: 1;
+    width: 100vw;
+  }
