@@ -1,27 +1,6 @@
-#head{
-    color: rgb(73, 22, 66);
-    font-size: 60px;
-    font-weight: bolder;
-    font-style: italic;
-    text-align: center;
-    font-family: segoe print;
-}
-#gen{
-    font-size: large;
-    margin-top: 50px;  
-    margin-bottom: 50px;  
-    margin-right: 100px;  
-    margin-left: 200px; 
 
-}
-
-#we{
-    color: rgb(5, 80, 5);
-    font-size: xx-large;
-    font-style: italic;
-    font-weight: bolder;
-    text-align: center;
-    
+.background{
+    background-color: #393b41;
 }
 
 .center {  
@@ -39,7 +18,7 @@
 
 }
 
-body.home{
+body{
     background-image: url('../images/bg.jpeg');
     background-size:auto;
     background-position: center;
@@ -47,9 +26,9 @@ body.home{
 
 }
 
-body.others {
+/* body.others {
     background-color: #073e45;
-}
+} */
 
 /* Header styling */
 header {
@@ -99,6 +78,7 @@ footer {
     position: fixed;
     bottom: 0;
     left: 0;
+    height: 40px;
     width: 100%;
 }
 
